@@ -9,7 +9,6 @@ import java.util.Scanner;
  *
  * @author makaylaroberts
  */
-
 public class P3 {
 
     /**
@@ -17,7 +16,6 @@ public class P3 {
      *
      * @param args arguments from command line prompt
      */
-
     public static void main(String[] args) {
         double var1, var2;
 

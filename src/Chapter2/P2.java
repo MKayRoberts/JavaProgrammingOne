@@ -8,7 +8,6 @@ import java.util.Scanner;
  *
  * @author makaylaroberts
  */
-
 public class P2 {
 
     /**
@@ -16,7 +15,6 @@ public class P2 {
      *
      * @param args arguments from command line prompt
      */
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter price of meal. Exclude dollar sign... $");

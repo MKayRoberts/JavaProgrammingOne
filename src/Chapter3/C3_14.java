@@ -7,7 +7,6 @@ import java.util.Scanner;
  *
  * @author makaylaroberts
  */
-
 public class C3_14 {
 
     /**
@@ -15,7 +14,6 @@ public class C3_14 {
      *
      * @param args arguments from command line prompt
      */
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int computerGen = (int) (Math.random() * 2);

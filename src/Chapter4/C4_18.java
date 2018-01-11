@@ -8,7 +8,6 @@ import java.util.Scanner;
  *
  * @author makaylaroberts
  */
-
 public class C4_18 {
 
     /**
@@ -16,7 +15,6 @@ public class C4_18 {
      *
      * @param args arguments from command line prompt
      */
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String userInput;
