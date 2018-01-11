@@ -46,6 +46,12 @@ public class C6_18 {
         }
     }
 
+    /**
+     * Method makes sure that there are enough characters in password
+     *
+     * @param userInput user provided password
+     * @return if there are enough characters in password
+     */
     public static String CharCheck(String userInput) {
         int charAmount;
         charAmount = userInput.length();
@@ -56,6 +62,12 @@ public class C6_18 {
         return "false";
     }
 
+    /**
+     * Method makes sure there are enough digits in password
+     *
+     * @param userInput user provided password
+     * @return if there are enough digits in password
+     */
     public static String digitCheck(String userInput) {
         int digitCount = 0;
         for (int i = 0, len = userInput.length(); i < len; i++) {
@@ -69,6 +81,12 @@ public class C6_18 {
         return "false";
     }
 
+    /**
+     * Method makes sure that there are no invalid characters in password
+     *
+     * @param userInput user provided password
+     * @return if there are invalid characters in password
+     */
     public static String containsCheck(String userInput) {
         if (userInput.contains("#")) {
             return "false";

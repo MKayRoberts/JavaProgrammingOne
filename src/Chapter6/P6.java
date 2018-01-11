@@ -53,10 +53,11 @@ public class P6 {
     }
 
     /**
-     * convert4me Method
+     * Method that converts USD to currency of choice
      *
      * @param dollars amount of USD user wants converted
      * @param conversionChoice currency user wants USD converted to
+     * @return converted amount of currency from USD
      */
     public static double convert4me(double dollars, double conversionChoice) {
         if (dollars > 100) {
